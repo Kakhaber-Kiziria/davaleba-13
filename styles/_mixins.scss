@@ -1,0 +1,28 @@
+@mixin flex () {
+    display: flex;
+    flex-wrap: wrap;
+}
+@mixin font-large () {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+@mixin font-big () {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+@mixin font-normal () {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #818687;
+}
+@mixin font-small () {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #8A8787;
+}
